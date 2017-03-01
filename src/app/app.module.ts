@@ -5,14 +5,14 @@ import { AppComponent } from './app.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpModule } from '@angular/http';
-
-import { HomeComponent } from './home/home.component';
 import { LocationStrategy, HashLocationStrategy } from '@angular/common';
+
+import { PersonalComponent } from './personal/personal.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent,
+    PersonalComponent,
   ],
   imports: [
     BrowserModule,
