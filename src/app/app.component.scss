@@ -1,0 +1,21 @@
+h1{
+    font-size: 20pt;
+
+    &:before{
+        content: "<";
+        display: table;
+    }
+
+    &:after{
+        content: "/>";
+    }
+}
+
+h2{
+    font-size: 16pt;
+    font-weight: 700;
+
+    &:after{
+        content: "()";
+    }
+}
