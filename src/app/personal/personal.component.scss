@@ -1,6 +1,5 @@
 .personal{
     text-align: center;
-    width: 100vw;
     height: 100vh;
     background-color: #bbbbbb;
     color: #232323;
@@ -17,8 +16,8 @@
             background-image: url('../../images/placeholder/mugshot.jpg');;
             background-size: contain;
             background-position: center center;
-            width: 80%;
-            padding: 40%;
+            width: 60%;
+            padding: 30%;
             transform: translate(-50%, -50%);
             border-radius: 50%;
         }

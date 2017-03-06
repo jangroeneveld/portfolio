@@ -8,22 +8,24 @@ import { HttpModule } from '@angular/http';
 import { LocationStrategy, HashLocationStrategy } from '@angular/common';
 
 import { FooterComponent } from './footer/footer.component';
+import { GridImagesComponent } from './projects/grid-images/grid-images.component';
 import { PersonalComponent } from './personal/personal.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    FooterComponent,
-    PersonalComponent,
-  ],
-  imports: [
-    BrowserModule,
-    FormsModule,
-    ReactiveFormsModule,
-    HttpModule,
-    RouterModule.forRoot(rootRouterConfig, { useHash: true })
-  ],
-  bootstrap: [ AppComponent ]
+	declarations: [
+		AppComponent,
+		FooterComponent,
+		GridImagesComponent,
+		PersonalComponent,
+	],
+	imports: [
+		BrowserModule,
+		FormsModule,
+		ReactiveFormsModule,
+		HttpModule,
+		RouterModule.forRoot(rootRouterConfig, { useHash: true })
+	],
+	bootstrap: [AppComponent]
 })
 export class AppModule {
 
