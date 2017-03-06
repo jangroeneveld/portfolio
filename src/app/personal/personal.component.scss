@@ -1,11 +1,26 @@
 .personal{
+    text-align: center;
     width: 100vw;
     height: 100vh;
     background-color: #bbbbbb;
     color: #232323;
 
-    .personal-photo{
-        height: 100vh;
-        background-color: white;
+    .personal-photo-container{
+        min-height: 100vh;
+        height: 100%;
+        width: 100%;
+
+        .personal-photo{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            background-image: url('../../images/placeholder/mugshot.jpg');;
+            background-size: contain;
+            background-position: center center;
+            width: 80%;
+            padding: 40%;
+            transform: translate(-50%, -50%);
+            border-radius: 50%;
+        }
     }
 }

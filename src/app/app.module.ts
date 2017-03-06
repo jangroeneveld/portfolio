@@ -7,11 +7,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { HttpModule } from '@angular/http';
 import { LocationStrategy, HashLocationStrategy } from '@angular/common';
 
+import { FooterComponent } from './footer/footer.component';
 import { PersonalComponent } from './personal/personal.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    FooterComponent,
     PersonalComponent,
   ],
   imports: [

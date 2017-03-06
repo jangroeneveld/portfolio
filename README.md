@@ -7,5 +7,10 @@ A simple portfolio website demonstrating the basic concepts of Angular 2.
 - `WINDOWS ONLY` run `npm install -g webpack webpack-dev-server typescript` to install global dependencies
 - run `npm install` to install dependencies
 - run `npm start` to fire up dev server
+<<<<<<< HEAD
 - open browser to [`http://localhost:3000`](http://localhost:3000)
 - if you want to use other port, open `package.json` file, then change port in `--port 3000` script
+=======
+- open browser to [`http://localhost:3088`](http://localhost:3088)
+- if you want to use other port, open `package.json` file, then change port in `--port 3088` script
+>>>>>>> origin/master
