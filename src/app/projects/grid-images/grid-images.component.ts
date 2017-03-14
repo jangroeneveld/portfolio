@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
     selector: 'grid-images',
@@ -6,8 +6,8 @@ import { Component } from '@angular/core';
     styleUrls: ['./grid-images.component.scss']
 })
 export class GridImagesComponent{
-    horizontalAmount: number = 2;
-    images = [
+    @Input() horizontalAmount: number = 2;
+    @Input() images = [
     'http://www.lorempixel.com/400/300/city/1',
     'http://www.lorempixel.com/400/300/city/2',
     'http://www.lorempixel.com/400/300/city/3',
