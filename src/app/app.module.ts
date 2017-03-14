@@ -9,14 +9,18 @@ import { LocationStrategy, HashLocationStrategy } from '@angular/common';
 
 import { FooterComponent } from './footer/footer.component';
 import { GridImagesComponent } from './projects/grid-images/grid-images.component';
+import { HeaderComponent } from './header/header.component';
 import { PersonalComponent } from './personal/personal.component';
+import { ProjectInfoComponent } from './projects/project-info/project-info.component';
 
 @NgModule({
 	declarations: [
 		AppComponent,
 		FooterComponent,
 		GridImagesComponent,
+		HeaderComponent,
 		PersonalComponent,
+		ProjectInfoComponent
 	],
 	imports: [
 		BrowserModule,
