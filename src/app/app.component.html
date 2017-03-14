@@ -1,13 +1,4 @@
 <header></header>
 <router-outlet></router-outlet>
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-xs-6">
-            <grid-images></grid-images>
-        </div>
-        <div class="col-xs-6">
-            <project-info></project-info>
-        </div>
-    </div>
-</div>
+<project *ngFor="let p of projects; let i = index" [projectTitle]="p.projectTitle" [projectSummary]="p.projectSummary" [photoLeft]="i % 2"></project>
 <footer></footer>

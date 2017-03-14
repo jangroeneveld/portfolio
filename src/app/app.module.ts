@@ -11,6 +11,7 @@ import { FooterComponent } from './footer/footer.component';
 import { GridImagesComponent } from './projects/grid-images/grid-images.component';
 import { HeaderComponent } from './header/header.component';
 import { PersonalComponent } from './personal/personal.component';
+import { ProjectComponent } from './projects/project/project.component';
 import { ProjectInfoComponent } from './projects/project-info/project-info.component';
 
 @NgModule({
@@ -20,6 +21,7 @@ import { ProjectInfoComponent } from './projects/project-info/project-info.compo
 		GridImagesComponent,
 		HeaderComponent,
 		PersonalComponent,
+		ProjectComponent,
 		ProjectInfoComponent
 	],
 	imports: [

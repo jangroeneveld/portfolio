@@ -1,8 +1,12 @@
 .personal{
     text-align: center;
-    height: 100vh;
+    min-height: 100vh;
     background-color: #bbbbbb;
     color: #232323;
+
+    .personal-info{
+        margin-top: auto;
+    }
 
     .personal-photo-container{
         min-height: 100vh;
@@ -13,7 +17,7 @@
             position: absolute;
             top: 50%;
             left: 50%;
-            background-image: url('../../images/placeholder/mugshot.jpg');;
+            background-image: url('../../images/placeholder/mugshot.jpg');
             background-size: contain;
             background-position: center center;
             width: 60%;

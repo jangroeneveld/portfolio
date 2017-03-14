@@ -1,5 +1,13 @@
 <div class="container-fluid">
-    <div class="row">
-        <div class="col-sm-6 col-xs-12"></div>
+    <div class="row project">
+        <div class="col-sm-6 col-xs-12" [hidden]=!photoLeft>
+            <grid-images></grid-images>
+        </div>
+        <div class="col-sm-6 col-xs-12">
+            <project-info [projectTitle]="projectTitle" [projectSummary]="projectSummary" [projectDetails]="projectDetails"></project-info>
+        </div>
+        <div class="col-sm-6 col-xs-12" [hidden]=photoLeft>
+            <grid-images></grid-images>
+        </div>
     </div>
 </div>
